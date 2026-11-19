@@ -1,0 +1,6 @@
+-dontwarn org.jsoup.**
+-keep class org.jsoup.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keepattributes Signature
+-keepattributes *Annotation*

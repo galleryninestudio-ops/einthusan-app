@@ -1,0 +1,23 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+.idea/
+*.iml
+
+# Private release signing material and passwords
+/signing/
+*.p12
+
+# Local chat attachments, test captures and environment secrets
+/.gemini/
+/artifacts/
+.env
+.env.*
+!.env.example
+/keystore.properties
+*.log
